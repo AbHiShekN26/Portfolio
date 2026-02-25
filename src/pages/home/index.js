@@ -4,11 +4,13 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
+import AIReceptionist from "../../AIReceptionist";
 
 export const Home = () => {
   return (
     <HelmetProvider>
       <section id="home" className="home">
+        <AIReceptionist/>
         <Helmet>
           <meta charSet="utf-8" />
           <title> {meta.title}</title>
