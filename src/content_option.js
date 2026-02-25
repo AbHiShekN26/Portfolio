@@ -1,5 +1,4 @@
 import profile from "../src/assets/images/profile.jpg";
-import Profile from "../src/assets/images/Profile.png";
 import Viralon from "../src/assets/images/Viralon images.png";
 import Ochi from "../src/assets/images/ochi.PNG";
 import ReactVids from "../src/assets/images/videoSteam.jpg";
