@@ -13,7 +13,12 @@ const AIReceptionist = () => {
   } else {
     try {
       // 1. Get the token from your backend
-      const response = await fetch('/api/register-call', { method: 'POST' });
+      const response = await fetch('/api/register-call', { 
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  }
+});
       const data = await response.json();
       
       // 2. Start the call using the dynamic token
